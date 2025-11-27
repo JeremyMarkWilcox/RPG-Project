@@ -247,8 +247,8 @@ Transform:
   m_GameObject: {fileID: 16927046}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.79, y: -3.25, z: 0}
-  m_LocalScale: {x: 1.905741, y: 2.1157796, z: 0.60225}
+  m_LocalPosition: {x: 6.79, y: -2.0945, z: 0}
+  m_LocalScale: {x: 1.905741, y: 4.4266343, z: 0.60225}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -775,8 +775,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceaca726db7cb724d91606791da15faf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackVelocity: {x: 3, y: 1.5}
+  attackVelocity:
+  - {x: 3, y: 1.5}
+  - {x: 1, y: 2.5}
+  - {x: 2.75, y: 1.75}
   attackVelocityDuration: 0.1
+  comboResetTime: 1
   moveSpeed: 8
   jumpForce: 12
   wallJumpForce: {x: 6, y: 12}
@@ -997,8 +1001,8 @@ Transform:
   m_GameObject: {fileID: 1908944795}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.6, y: -3.2, z: 0}
-  m_LocalScale: {x: 1.905741, y: 2.1157796, z: 0.60225}
+  m_LocalPosition: {x: -2.6, y: -1.9899, z: 0}
+  m_LocalScale: {x: 1.905741, y: 4.4266343, z: 0.60225}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
